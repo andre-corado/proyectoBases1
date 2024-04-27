@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C5A341D-B37B-9BFA-99DD-0E1447639584" name="Region">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:24:30 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_region" id="AE09FF4E-CD94-67AE-337E-14A3677E6503">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:24:37 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7AE74ADB-5694-C19D-565D-8BAD713F6306">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:25:08 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="1939E447-F5F9-8958-46F5-D1C6BB8A7D80">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 07:04:47 UTC</createdTime>
+<generatorID>358B38AB-13AB-9DD6-6A75-91CFD7577B7D</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<referedAttribute>404716DB-F679-09BA-4F93-83BBA3787370</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B472569-4C88-C901-0A12-C76255CF66F9" name="Region PK">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:25:03 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE09FF4E-CD94-67AE-337E-14A3677E6503</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

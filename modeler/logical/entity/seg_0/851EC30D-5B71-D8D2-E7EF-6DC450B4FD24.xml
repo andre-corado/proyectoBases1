@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="851EC30D-5B71-D8D2-E7EF-6DC450B4FD24" name="Departamento">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:25:43 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_departamento" id="F1032572-AC3C-8538-75CF-BD65F565A250">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:26:47 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="50A83B26-A4C6-1777-C0C4-1B4C21E42271">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:27:18 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_region" id="EE2C4D1B-525B-6A75-4013-C7882B071090">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 07:04:55 UTC</createdTime>
+<generatorID>28FC717E-3D82-7399-FA4A-771F6C43CA74</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<referedAttribute>AE09FF4E-CD94-67AE-337E-14A3677E6503</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BD158A1-D3A4-6199-52D0-6F99983F21DA" name="Departamento PK">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:26:55 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1032572-AC3C-8538-75CF-BD65F565A250</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="377BE017-7E16-014B-CEBF-D0378934EECE" name="Indicadores">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:38:17 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_indicador" id="0F31F7C9-DB12-FF15-F208-03CAB1FDFDB0">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:41:25 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="E2C87ABB-F840-DC02-7D72-93EA95657648">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:41:52 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="escolaridad" id="087B48F4-8B5B-11FD-E9FB-E54D2B8EF7A9">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:42:25 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="raza" id="D5F4BB6F-416F-9AE6-CE9F-CC08B91ADE04">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:43:11 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="edad" id="C8E05F03-0413-A185-C3A8-E398437F9EDF">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:43:41 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_voto" id="1DB6BBE2-D34E-EECA-AE2C-7055F742EE78">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 07:24:18 UTC</createdTime>
+<generatorID>1AA4D1A4-6752-C215-7871-FBD216FDEFAF</generatorID>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<referedAttribute>599391BC-5060-F449-5277-EAC32D37CA7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53B1E865-B57B-09F5-7906-722438E37CF5" name="Indicadores PK">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 06:41:31 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F31F7C9-DB12-FF15-F208-03CAB1FDFDB0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

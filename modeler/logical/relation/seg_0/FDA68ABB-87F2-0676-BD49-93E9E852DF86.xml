@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zona_Eleccion" directorySegmentName="seg_0" id="FDA68ABB-87F2-0676-BD49-93E9E852DF86">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 07:22:20 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<sourcePk>8AB27D28-0087-A939-A43A-6ED056D0C500</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CDDB1323-5129-9273-52C3-A3BD0BF774A3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>57EAAADA-6261-58C3-F280-88F99E564B4E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

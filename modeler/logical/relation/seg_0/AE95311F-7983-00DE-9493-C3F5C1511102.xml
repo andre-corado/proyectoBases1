@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Puesto_Eleccion" directorySegmentName="seg_0" id="AE95311F-7983-00DE-9493-C3F5C1511102">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 07:22:55 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<sourcePk>567A6794-0DCC-DC05-D559-628E0065BFF0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9FCF7920-FA0C-6CE5-4DBE-4460DCEBA280</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>57EAAADA-6261-58C3-F280-88F99E564B4E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

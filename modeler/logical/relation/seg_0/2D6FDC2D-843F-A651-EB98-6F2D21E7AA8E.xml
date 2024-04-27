@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Eleccion_Voto" directorySegmentName="seg_0" id="2D6FDC2D-843F-A651-EB98-6F2D21E7AA8E">
+<createdBy>andre</createdBy>
+<createdTime>2024-04-27 07:35:01 UTC</createdTime>
+<ownerDesignName>modeler</ownerDesignName>
+<engineerTo>
+<item key="4997067E-2701-2988-375C-57449FF80ACF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>57EAAADA-6261-58C3-F280-88F99E564B4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8DBE687D-544F-7FCE-F09C-DF8F6AC9E3F3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
